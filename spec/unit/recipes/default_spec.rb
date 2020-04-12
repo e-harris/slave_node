@@ -26,7 +26,7 @@ describe 'name::default' do
   # end
 
   it "Should create a Downloads directory" do
-    expect(chef_run).to create_directory '/home/vagrant/Downloads'
+    expect(chef_run).to create_directory '/home/ubuntu/Downloads'
   end
 
 
